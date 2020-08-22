@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #555;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f0edf1;
+}
+
+.card {
+  width: 430px;
+  height: 700px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #f0edf1;
+ /* card Neumorphism  */
+ box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+
+}
+
+.card_logo {
+  background: url("imgs/logo.png");
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 0 auto;
+ /* Logo Neumorphism  */
+ box-shadow: 0 0 2px #5f5f5f, 0 0 0 5px #f0edf1 , 8px 8px 15px #a7aaaf, -8px -8px 15px #fff ;
+ 
+}
+
+.card_title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.card_sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 2px;
+  opacity: 0.75;
+}
+
+.card_form .fields {
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+.card_form .fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+ /* Input Neumorphism  */
+ box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.card_form .fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #7008a4;
+  background: linear-gradient(to right bottom, #aa1178, #7008a4);
+  transition: all 0.5s;
+
+ /* Button Neumorphism  */
+  box-shadow: 5px 5px 10px #b1b1b1, -5px -5px 10px #fff;
+}
+.btn:hover {
+  background: #aa1178;
+  background: linear-gradient(to right bottom, #aa1178, #aa1178);
+ /* Button:hover Neumorphism  */
+  box-shadow: 0 0 25px 5px rgba(255, 0, 170, 0.4);
+}
+.btn:active {
+  background: #aa1178;
+  background: linear-gradient(to right bottom, #7008a4, #7008a4);
+ /* Button:active Neumorphism  */
+ box-shadow: 0 0 25px 5px rgba(113, 8, 166, 0.4);
+
+}
+.card .link {
+  padding-top: 20px;
+  text-align: center;
+}
+.card .link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
+
+
+ 
